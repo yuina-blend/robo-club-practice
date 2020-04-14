@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+
+int div5(int);
 int add5(int);
 
 int mul5(int a);
@@ -12,6 +14,10 @@ int main()
     return 0;
 }
 
+int div5(int a)
+{
+    return (a + 5);
+}
 
 int add5(int a)
 {
