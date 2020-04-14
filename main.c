@@ -18,7 +18,7 @@ int div5(int a)
     return (a + 5);
 }
 
-int add5(int a)
+int add(int a,int b)
 {
     return a + b;
 }
