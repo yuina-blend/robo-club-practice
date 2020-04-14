@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 
+int mul(int a,int b);
 int div(int a, int b);
 int add(int a,int b);
-int mul5(int a);
 int sub5(int a);
 
 int main()
@@ -23,8 +23,8 @@ int add5(int a)
     return a + b;
 }
 
-int mul5(int a){
-    return a*5;
+int mul(int a, int b){
+    return a*b;
 }
 
 int sub5(int a)
