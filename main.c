@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 
-int div5(int a);
+int div(int a, int b);
 int add5(int a);
 int mul5(int a);
 int sub5(int a);
@@ -13,9 +13,9 @@ int main()
     return 0;
 }
 
-int div5(int a)
+int div(int a, int b)
 {
-    return (a + 5);
+    return a / b;
 }
 
 int add5(int a)
