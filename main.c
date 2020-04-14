@@ -6,4 +6,3 @@ int main()
     // fuck
     return 0;
 }
-unchi
