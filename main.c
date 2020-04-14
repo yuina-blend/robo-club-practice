@@ -1,9 +1,8 @@
 #include <stdio.h>
 
 
-int div5(int);
-int add5(int);
-
+int div5(int a);
+int add5(int a);
 int mul5(int a);
 int sub5(int a);
 
