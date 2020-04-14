@@ -3,7 +3,7 @@
 
 int div5(int a);
 int add5(int a);
-int mul5(int a);
+int mul(int a,int b);
 int sub5(int a);
 
 int main()
@@ -23,8 +23,8 @@ int add5(int a)
     return a + 5;
 }
 
-int mul5(int a){
-    return a*5;
+int mul(int a, int b){
+    return a*b;
 }
 
 int sub5(int a)
