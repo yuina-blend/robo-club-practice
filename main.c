@@ -21,7 +21,8 @@ int div5(int a)
 int add5(int a)
 {
     return a + 5;
- 
+}
+
 int mul5(int a){
     return a*5;
 }
